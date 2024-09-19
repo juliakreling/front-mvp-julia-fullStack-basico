@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Agenda</title>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>Compromissos do dia</h1>
+        </div>
+    </header>
+
+    <section class="newItem">
+        <input type="text" id="newInput" placeholder="Descrição:">
+        <button onclick="novoCompromisso()" class="addBtn">Adicionar</button>
+    </section>
+
+    <section class="items">
+        <table id="myTable">
+            <tr>
+                <th>Compromisso</th>
+                <th><img src="https://cdn-icons-png.flaticon.com/512/1159/1159633.png" width="15px" height="15px"></th>
+                <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></th>
+            </tr>
+        </table>
+    </section>
+
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
